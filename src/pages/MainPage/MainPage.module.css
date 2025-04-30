@@ -1,0 +1,574 @@
+.main{
+    margin-top: 30px;
+     
+}
+
+
+/* section 1 */
+.swiper{
+     background-image: url('../../assets/imgs/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+    background-color:  #90a7ff;
+    border-radius: 32px;
+    margin-bottom: 47px;
+    padding: 146px 19px 34px 19px;
+    color: white;
+}
+
+.arrow:not(:first-child){
+    margin-left: auto;
+}
+
+.arrow{
+    margin-bottom: 145px;
+}
+
+.swiperContent{
+    margin-left: 24px;
+    font-family: system-ui;
+    font-size: 19px;
+}
+
+.swiperContentTitle{
+    font-size: 58px;
+    margin-bottom: 19px;
+    max-width: 588px;
+    font-weight: 400;
+    line-height: 69px;
+}
+
+.swiperContentText{
+    font-size: 16px;
+    margin-bottom: 49px;
+}
+
+.swiperBtn{
+    padding: 14px 53px;
+    border-radius: 50px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-bottom: 93px;
+}
+
+.swiperLine{
+    width: 100%;
+    height: 2px;
+    border: 1px solid white;
+}
+
+.swiperLine:not(:last-child){
+    margin-right: 34px;
+}
+
+.swiperLines{
+    justify-content: center;
+}
+
+/* section 2 */
+
+
+.offers{
+    font-family: system-ui;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.offersTitle{
+    font-size: 42px;
+    margin-bottom: 9px;
+    font-weight: 400;
+}
+
+.offersText{
+    max-width: 628px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+.offersBlock{
+    background-color: #90a7ff;
+    color: white;
+    border-radius: 35px;
+}
+
+.offersBlock span{
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.offersBlock,
+.offersPhone p{
+    font-size: 32px;
+    line-height: 29px;
+}
+
+div.offersBlock:nth-child(1){
+    background-image: url('../../assets//imgs/laptop.jpg');
+    background-repeat: no-repeat;
+   margin-bottom: 50px;
+    text-align: end;
+    width: 100%;
+    background-position: 42px 0;
+    padding: 363px 42px 19px 358px;
+}
+
+div.offersBlock:nth-child(2){
+    background-image: url('../../assets//imgs/o`clock.jpg');
+    background-repeat: no-repeat;
+    text-align: end;
+    background-position: 42px 0;
+    padding: 87px 42px 87px 358px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.offersBlock:nth-child(2) p{
+    max-width: 170px;
+
+}
+
+.offersPhone{
+    background-image: url('../../assets//imgs/phones.jpg');
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: #90a7ff;
+    color: white;
+    border-radius: 35px;
+    text-align: center;
+    background-position: 0 144px;
+    padding: 552px 31px 19px 31px;
+}
+
+div.offersBlock:nth-child(3){
+    background-image: url('../../assets//imgs/tablets.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 0 252px;
+    padding: 114px 40px 19px 40px;
+}
+
+.products{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 68px;
+}
+
+.productsTitle{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.productsText{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.cards{
+    margin-bottom: 40px;
+}
+
+.productsBtn{
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(144, 167, 255, 1);
+    padding: 10px 15px;
+}
+
+/* section 3 */
+
+.TheBest{
+    flex-direction: column;
+    font-family: system-ui;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.TheBestTitle{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.TheBestText{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.TheBestCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(248, 249, 250, 1);
+    padding: 40px 59px;
+    max-width: 412px;
+}
+
+.TheBestCards{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.TheBestCard span{
+    font-size: 13px;
+}
+
+.TheBestCard p{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.TheBestBtn{
+    font-size: 18px;
+    border-radius: 60px;
+    padding: 14px 63px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+/* section 4 */
+
+.ideas{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.ideasTitle{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.ideasText{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.ideasContent{
+    margin-bottom: 35px;
+}
+
+.ideasContentText{
+    margin-left: 35px;
+}
+
+.ideasContentText p{
+    font-size: 24px;
+}
+
+.ideasContentText p:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.ideasLink{
+    font-size: 24px;
+    align-items: end;
+}
+
+.ideasLink svg{
+    margin-left: 17px;
+}
+
+/* section 5 */
+
+.find{
+    flex-direction: column;
+    align-items: center;
+}
+
+.fintTitle{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 29px;
+}
+
+/* section 6 */
+
+.subscribe{
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(144, 167, 255, 1);
+    border-radius: 30px;
+    color: white;
+    padding: 20px 120px 40px 120px;
+    margin-bottom: 70px;
+}
+
+.subscribeTitle{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    max-width: 638px;
+    width: 100%;
+}
+
+.subscribeText{
+    margin-bottom: 15px;
+    max-width: 638px;
+    text-align: center;
+}
+
+.subscribeImg{
+    margin-bottom: 15px;
+}
+
+.sb{
+    justify-content: center;
+}
+
+.subscribeInput{
+    background-color: unset;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 33px;
+    border-radius: 25px 0 0 25px; 
+    border: 1px solid white;
+    line-height: 15px;
+    caret-color: white;
+    color: white;
+}
+
+.subscribeInput::placeholder{
+    color: white;
+}
+
+.subscribeBtn{
+    color: rgba(144, 167, 255, 1);
+    background-color: white;
+    padding: 16px 33px;
+    border-radius: 0 25px 25px 0; 
+}
+
+@media(max-width: 1833px){
+    .TheBestCards{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
+    }
+}
+
+@media(max-width: 1670px){
+    .cards{
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1390px){
+    .swiperContent{
+        max-width: 286px;
+    }
+}
+
+@media(max-width: 1328px){
+    .swiperContentTitle{
+        line-height: unset;
+        font-size: 36px;
+    }
+    
+    }
+
+
+@media(max-width: 1237px){
+    div.offersBlock:nth-child(1){
+        padding: 363px 42px 19px 49px;
+    }
+
+    div.offersBlock:nth-child(2){    
+    padding: 79px 10px 20px 0;
+    background-image: url('../../assets/imgs/clock1024.png');
+    background-position: left;
+    }
+
+    .offersPhone{
+        padding: 552px 14px 19px 14px;
+    }
+
+    div.offersBlock:nth-child(3){    
+        padding: 115px 14px 20px 14px;
+        }
+
+        .productsTitle,
+        .TheBestTitle{
+            font-size: 36px;
+        }
+}
+
+
+
+@media(max-width: 1024px){
+    .ideasContent{
+       flex-direction: column;
+    }
+
+    .ideasContent img{
+        margin-bottom: 35px;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    div.offersBlock:nth-child(3){    
+        background-image: url('../../assets//imgs/tablets1024.png');
+        background-position: bottom left;
+        }
+
+
+        div.offersBlock:nth-child(1){
+           background-image: url('../../assets/imgs/laptop1024.png');
+           background-position: unset;
+        }
+
+        .offersPhone{
+            background-position: unset;
+        }
+
+        .ideasContentText{
+            margin-left: unset;
+        }
+}
+
+@media (max-width:890px) {
+    .offers{
+        display: none;
+    }
+
+   
+    
+}
+
+
+@media(max-width: 758px){
+    
+    .ideasContent img{
+        max-width: 550px;
+    }
+
+    .swiper{
+    background-position: 140px bottom;
+    }
+
+    .swiperBtn{
+        margin-bottom: 255px;
+    }
+}
+
+@media(max-width: 636px){
+    .subscribe{
+        padding: 20px 51px 40px 51px;
+    }
+
+    .subscribeTitle{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 590px){
+    .ideasContent img{
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 545px){
+    .ideasTitle{
+       font-size: 29px;
+    }
+
+    .fintTitle{
+        font-size: 29px;
+    }
+}
+
+@media(max-width: 508px){
+    .subscribeTitle{
+        font-size: 20px;
+    }
+
+    .subscribeText{
+        max-width: 242px;
+    }
+
+    .subscribeInput{
+        max-width: 123px;
+    }
+}
+
+@media(max-width: 488px){
+    .ideasTitle{
+       font-size: 29px;
+    }
+
+    .fintTitle{
+        font-size: 29px;
+    }
+
+    .swiperContent{
+        margin-left: unset;
+    }
+
+    .swiperContentTitle{
+        font-size: 32px;
+    }
+
+    .swiper{
+        padding: 80px 19px 34px 15px;
+        background-size: 373px;
+        background-position: 94px bottom;
+    }
+
+    .swiperContentText{
+        margin-bottom: 22px;
+    }
+
+    .productsTitle{
+        font-size: 20px;
+    }
+
+    .TheBestTitle{
+        font-size: 24px;
+    }
+
+    .ideasTitle{
+        font-size: 24px;
+    }
+
+    .fintTitle{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 450px){
+    .subscribe{
+        padding: 20px 31px 40px 31px;
+
+    }
+}
+
+@media(max-width: 435px){
+    .subscribe{
+        padding: 20px 31px 40px 31px;
+
+    }
+
+    .TheBest{
+        padding: unset;
+    }
+
+    .TheBestCard{
+        max-width: unset;
+        width: 100%;
+    }
+
+    .ideasContent img{
+        max-width: 325px;
+    }
+}

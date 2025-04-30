@@ -1,0 +1,128 @@
+.cardItem{
+    flex-direction: column;
+    font-family: system-ui;
+    max-width: 323px;
+}
+
+.cardItemImg{
+    width: 247px;
+    margin-bottom: 40px;
+}
+
+.cardItemTitle{
+    font-size: 22px;
+    margin-bottom: 10px;
+
+    font-weight: 500;
+}
+
+
+.cardItemText{
+    font-size: 14px;
+    max-width: 315px;
+    margin-bottom: 13px;
+}
+
+.cardItemNewPrice{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.cardItemPrice{
+    text-decoration: line-through;
+    color: rgba(197, 197, 197, 1);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.addToCart{
+    color: white;
+    background-color: rgba(71, 108, 255, 1);
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.addToFav{
+    color: rgba(71, 108, 255, 1);
+    margin-left: 25px;
+}
+
+.inCart {
+    color: rgba(71, 108, 255, 1);
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .addToCart {
+    display: block;
+  }
+  
+  .addToCart:disabled {
+    display: none;
+  }
+  
+
+  .accountCards{
+    margin-left: 45px;
+    flex-wrap: wrap;
+    margin-bottom: 38px;
+    column-gap: 4px;
+  }
+
+  .accountCardItem{
+    margin-bottom: 38px;
+    max-width: 307px;
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .accountCardBtn{
+    background-image: url('../../../../assets//imgs/favorite.svg');
+    top: 10px;
+    background-position: right;
+    background-size: contain;
+    width: 35px;
+    color: white;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    right: 10px;
+    position: absolute;
+  }
+
+  .accountInfo{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  
+
+
+  @media(max-width: 1477px){
+    .accountCards{
+      justify-content: center;
+    }
+  }
+
+  
+  @media(max-width: 1397px){
+    .accountCards{
+      justify-content: unset;
+    }
+  }
+
+  @media(max-width: 1024px){
+    .accountCards{
+      margin-left: unset;
+     
+    }
+  }
+
+  @media(max-width: 999px){
+    .accountCards{
+      justify-content: center;
+    }
+  }

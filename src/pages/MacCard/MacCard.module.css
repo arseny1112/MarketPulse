@@ -1,0 +1,252 @@
+.card{
+    padding-top: 40px;
+}
+
+.cardMainImage{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+}
+
+.cardGalleryImage{
+    width: 85px;
+    height: 85px;
+}
+
+.cardGalleryImages{
+    flex-direction: column;
+}
+
+
+.cardItemNewPrice{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cardItemPrice{
+    text-decoration: line-through;
+    color: rgba(197, 197, 197, 1);
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.cardInfo{
+    margin-left: auto;
+    max-width: 500px;
+}
+
+.cardTitle{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.cardRaiting{
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.cardRaiting p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardSelector{
+    background-image: url('../../assets/imgs/ruble.svg');
+    background-repeat: no-repeat;
+    background-color: rgba(225, 232, 237, 1);
+    padding: 11px 17px 11px 45px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-position: 6% center;
+    margin-bottom: 30px;
+}
+
+.cardSelector svg{
+    margin-left: 68px;
+}
+
+.cardText{
+    margin-bottom: 30px;
+}
+
+.addToCart{
+    color: white;
+    padding: 10px 25px;
+    background-color: rgba(71, 108, 255, 1);
+    border-radius: 10px;
+    font-size: 16px;
+    width: 207px;
+}
+
+.inCart{
+    color: rgba(71, 108, 255, 1);
+}
+
+.makeOrder{
+    background-color: rgba(144, 167, 255, 1);
+    margin-left: 20px;
+    padding: 10px 44px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.cardAddToFav{
+    margin-left: 23px;
+}
+
+.cardBtns{
+    align-items: center;
+    line-height: 21px;
+}
+
+.cardAdditional{
+    flex-direction: column;
+}
+
+.cardAdditional h5{
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.cardAdditionalProducts{
+    margin-bottom: 70px;
+}
+
+
+
+@media(max-width:1865px){
+    .cardAdditionalProducts{
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+}
+
+@media(max-width: 1753px){
+    .cardInfo{
+        max-width: 400px;
+    }
+
+    .cardBtns{
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .addToCart{
+        margin-bottom: 10px;
+    }
+
+    .makeOrder{
+        margin-left: unset;
+        padding: 10px 50px;
+    }
+}
+
+
+@media(max-width: 1521px){
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .cardInfo{
+        margin-left: unset;
+        max-width: 725px;
+    }
+
+    .cardMainImage{
+        margin-left: 20px;
+    }
+
+    .cardText{
+        margin-bottom: 41px;
+    }
+
+    .addToCart{
+        margin-bottom: unset;
+    }
+
+    .makeOrder{
+        margin-left: 20px;
+    }
+
+    .card{
+        margin-bottom: 109px;
+        justify-content: center;
+    }
+
+    .cardAdditional{
+        padding: 0 133px;
+    }
+}
+
+@media(max-width:905px){
+    .cardAdditional{
+        padding: 0 28px;
+    }
+    
+    .cardAdditionalProducts{
+        justify-content: center;
+
+    }
+
+    .cardAdditional h5{
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 592px){
+    .card{
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+
+    .cardGalleryImages{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .cardMainImage{
+        width: 314px;
+        margin-left: unset;
+        height: 257px;
+    }
+}
+
+@media(max-width: 566px){
+    .cardAddToFav{
+        margin-left: 5px;
+    }
+}
+
+@media(max-width: 550px){
+    .makeOrder{
+        margin-left: 5px;
+    }
+
+    .cardAddToFav{
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 492px){
+    .makeOrder{
+        margin-left: unset;
+    }
+}
+
+@media(max-width: 485px){
+    .cardAddToFav{
+        margin-top: unset;
+    }
+
+    .addToCart{
+        margin-bottom: 10px;
+    }
+}

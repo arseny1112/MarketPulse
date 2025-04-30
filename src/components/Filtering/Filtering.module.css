@@ -1,0 +1,151 @@
+
+
+.productFilterSelect:first-child{
+    border-top: 0px;
+}
+
+.productFilterSelect{
+    cursor: pointer;
+    width: 296px;
+    padding: 25px 0;
+    align-items: center;
+    color: rgba(75, 75, 75, 1);
+    border-bottom: 1px solid rgba(75, 75, 75, 1);
+}
+
+.productFilterSelect:hover svg path {
+    stroke: rgba(144, 167, 255, 1);
+  }
+  
+  .productFilterSelect:hover p {
+    color: rgba(144, 167, 255, 1);
+  }
+  
+.productFilterSelect:hover{
+    color:  rgba(144, 167, 255, 1);
+}
+
+
+
+.productFilterSelectors{
+    padding-bottom: 25px;
+    align-items: center;
+    color: rgba(75, 75, 75, 1);
+}
+
+.productFilterSelectors p{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.productFilterSelect p{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.productFilterSelectorsEl{
+  padding-top: 20px;
+}
+
+.productFilterSelectors:hover svg path {
+    stroke: rgba(144, 167, 255, 1);
+  }
+  
+  .productFilterSelectors:hover p {
+    color: rgba(144, 167, 255, 1);
+  }
+  
+.productFilter .productFilterSelectors:last-child{
+  margin-bottom: 40px;
+}
+
+.productFilterBtns{
+  flex-direction: column;
+}
+
+.productFilterBtn1{
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: white;
+  background-color: #90A7FF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.productFilterBtn2{
+  border-radius: 20px;
+  border: 1px solid #90A7FF;
+  padding-top: 10px;
+  color: #90A7FF;
+  padding-bottom: 10px;
+}
+
+  .productFilterSelect span{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #C5C5C5;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    vertical-align: middle;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+
+  }
+
+  .checkboxCustom input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkboxCustom .checkBox {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #c5c5c5;
+    border-radius: 4px; 
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .checkboxCustom:hover .checkBox {
+    border-color: #90a7ff;
+  }
+  
+  .checkboxCustom input[type="checkbox"]:checked + .checkBox {
+    border-color: #90a7ff;
+    background-color: #90a7ff; 
+  }
+  
+  .checkboxCustom input[type="checkbox"]:checked + .checkBox::after {
+    content: '✔';
+    position: absolute;
+    left: 4px;
+    font-size: 14px;
+    color: white; 
+  }
+  
+  .checkboxCustom p {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer; 
+  }
+  
+
+  @media(max-width:1760px){
+    
+
+    .productFilterBtn1,
+    .productFilterBtn2{
+        max-width: 296px;
+    }
+
+    .productFilterBtns{
+      padding-top: 15px;
+      margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,489 @@
+.order{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 313px;
+}
+
+.orderBackTo{
+    color: rgba(197, 197, 197, 1);
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.orderBackTo svg{
+    margin-right: 15px;
+}
+
+.orderTitle{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.orderForm{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    max-width: 884px;
+    border: 2px solid rgba(144, 167, 255, 1);
+}
+
+.orderFormContent h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 70px;
+    color: rgba(144, 167, 255, 1);
+}
+
+.orderFormContent{
+    margin-bottom: 52px;
+    align-items: baseline;
+}
+
+.orderFormContent p{
+    cursor: pointer;
+}
+
+.orderFormContent p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: rgba(144, 167, 255, 1);
+}
+
+
+
+.orderFormContent:first-child p{
+   margin-right: 45px;
+}
+
+.orderFormInfoContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderFormInfoContent label{
+    font-size: 20px;
+    color: rgba(75, 75, 75, 1);
+    margin-bottom: 25px;
+}
+
+.orderFormInfoContent input{
+    border: 1px solid rgba(144, 167, 255, 1);
+}
+
+.orderFormInfoContent:first-child{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.orderFormInfo{
+    flex-wrap: wrap;
+    max-width: 460px;
+    margin-bottom: 52px;
+}
+
+.orderForm button{
+    color: white;
+    background-color: rgba(71, 108, 255, 1);
+    padding: 10px 50px;
+}
+
+.ordersDelivery{
+    padding: 40px;
+    flex-direction: column;
+    max-width: 884px;
+    border: 2px solid rgba(144, 167, 255, 1);
+}
+
+.ordersDeliveryContent h3{
+    color: rgba(144, 167, 255, 1);
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.ordersDeliveryContent button{
+    color: white;
+    max-height: 44px;
+    margin-left: auto;
+    background-color: rgba(71, 108, 255, 1);
+    padding: 10px 50px;
+}
+
+.ordersDeliveryContentText{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.ordersDeliveryText,
+.ordersElement p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ordersElement:last-child{
+    margin-left: 139px;
+    text-align: end;
+}
+
+.ordersElement p:last-child{
+    margin-bottom: 0;
+}
+
+.ordersDelivery:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.createOrder{
+    flex-direction: column;
+    max-width: 457px;
+    margin-left: 10px;
+    margin-top: 183px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(144, 167, 255, 1);
+}
+
+.createOrderBlock p{
+    color: rgba(144, 167, 255, 1);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.createOrderBlock{
+    justify-content: space-between;
+    margin-bottom: 150px;
+    padding: 40px 40px 0 40px
+}
+
+.createOrderBlock2{
+    padding: 0px 40px 0 40px
+
+}
+
+.createOrderInput input{
+    border: 1px solid rgba(144, 167, 255, 1);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.createOrderInput{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.createOrderInput svg{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+}
+
+
+.createOrderBtn{
+    color: white;
+    background-color: rgba(71, 108, 255, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 457px;
+}
+
+.createOrderBlock3 p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(144, 167, 255, 1);
+}
+
+.createOrderBlock3 p:last-child{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.createOrderBlock3{
+    align-items: baseline;
+    margin-bottom: 13px;
+}
+
+.createOrderText{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: rgba(176, 190, 197, 1);
+}
+
+.createOrderBlock3:last-child{
+    margin-bottom: 40px;
+}
+
+.orderAgreement{
+    margin-left: 20px;
+}
+
+.orderAgreement p{
+    margin-left: 10px;
+    max-width: 418px;
+}
+
+
+
+
+.orderAgreement:hover svg path {
+    stroke: rgba(144, 167, 255, 1);
+  }
+  
+  .colorized{
+    color: rgba(144, 167, 255, 1);
+  }
+  
+  .productFilterSelect span{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #C5C5C5;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+
+  }
+
+  .checkboxCustom input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkboxCustom .checkBox {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #c5c5c5;
+    border-radius: 4px; 
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .checkboxCustom:hover .checkBox {
+    border-color: #90a7ff;
+  }
+  
+  .checkboxCustom input[type="checkbox"]:checked + .checkBox {
+    border-color: #90a7ff;
+    background-color: #90a7ff; 
+  }
+  
+  .checkboxCustom input[type="checkbox"]:checked + .checkBox::after {
+    content: '✔';
+    position: absolute;
+    left: 4px;
+    font-size: 14px;
+    color: white; 
+  }
+  
+  .checkboxCustom p {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer; 
+    margin-top: 5px;
+  }
+
+  .createOrderBtn:disabled {
+    background-color: rgba(144, 167, 255, 1);
+    color: #5f6683;
+    cursor: not-allowed;
+}
+  
+  @media(max-width:1676px){
+    .order{
+        padding-left: 212px;
+    }
+  }
+
+  @media(max-width:1512px){
+    .order{
+        padding-left: 102px;
+    }
+  }
+
+  @media(max-width:1372px){
+    .order{
+        padding-left: 28px;
+        padding-right: 28px;
+    }   
+  }
+
+  @media(max-width:1268px){
+    .Orders{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 171px;
+    }
+
+    .order{
+        padding-bottom: 10px;
+    }
+
+    .createOrder{
+        margin-top: unset;
+        margin-left: 28px;
+    }
+  }
+
+  @media(max-width:1024px){
+    .Orders{
+        justify-content: unset;
+    }
+
+    .orderFormInfoContent input{
+        width: 350px;
+        height: 35px;
+    }
+
+    .orderFormInfo{
+        max-width: 730px;
+    }
+    
+    .ordersDeliveryContent button,
+    .orderForm button{
+        font-size: 20px;
+    }
+
+    .order{
+        width: 100%;
+    }
+
+  }
+
+  @media(max-width: 830px){
+    .orderFormContent{
+        flex-wrap: wrap;
+    }
+
+    .orderFormContent h3{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+  }
+
+  @media(max-width: 656px){
+    .ordersDeliveryContent{
+        flex-wrap: wrap;
+    }
+
+    .ordersDeliveryContent button{
+        margin-left: unset;
+        margin-bottom: 40px;
+    }
+
+    .ordersDeliveryContent h3{
+        margin-bottom: 10px;
+    }
+
+    .ordersDeliveryInfo{
+        justify-content: space-between;
+    }
+
+    .ordersElement:last-child{
+        margin-left: unset;
+    }
+  }
+
+  @media(max-width: 560px){
+
+    .orderFormContent:first-child p{
+        margin-right: 25px;
+    }
+
+  }
+
+
+  @media(max-width: 525px){
+
+    .orderFormContent p{
+       font-size: 14px;
+    }
+
+    .orderFormContent h3{
+        font-size: 20px;
+    }
+
+    .createOrderBlock{
+        margin-bottom: 10px;
+    }
+
+    .createOrderBlock2{
+        margin-bottom: 180px;
+    }
+
+    .orderAgreement p{
+        font-size: 20px;
+    }
+
+  }
+
+  @media(max-width: 499px){
+    .orderFormInfoContent input{
+        width: 304px;
+    }
+
+    .createOrder{
+        margin-right: 28px;
+    }
+
+    .ordersDelivery{
+        padding: 40px 28px;
+    }
+
+    .order{
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .createOrder{
+        margin-right: 26px;
+        margin-left: 26px;
+    }
+
+    .orderTitle{
+        margin-bottom: 70px;
+    }
+
+    .orderAgreement{
+        margin-left: 26px;
+    }
+
+    .orderAgreement p{
+        max-width: 287px;
+    }
+
+    .order{
+        margin-bottom: 105px;
+    }
+
+    .checkboxCustom .checkBox {
+        width: 34px;
+        height: 33px;
+    }
+
+    .createOrderBlock p:last-child{
+        font-size: 15px;
+    }
+
+  }
+
+  @media(max-width:411px){
+    .orderAgreement{
+        margin-left: 26px;
+    }
+
+  }

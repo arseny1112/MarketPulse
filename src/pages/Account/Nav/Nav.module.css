@@ -1,0 +1,42 @@
+.accountNav{
+    flex-direction: column;
+    color: #4B4B4B;
+}
+
+.accountNavItem svg{
+    margin-right: 12px;
+}
+
+.accountNavItem:first-child{
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgba(197, 197, 197, 1);
+}
+
+.accountNavItem:nth-child(2){
+    padding-top: 22px;
+}
+
+.accountNavItem{
+    width: 296px;
+    margin-bottom: 20px;
+}
+
+.accountNavItem:nth-child(9){
+    border-bottom: 2px solid  rgba(197, 197, 197, 1);
+    padding-bottom: 25px;
+}
+
+.accountNavItem:nth-child(11){
+    padding-bottom: 25px;
+    border-bottom: 2px solid  rgba(197, 197, 197, 1);
+}
+
+.accountNavItem:nth-child(13){
+    padding-bottom: 25px;
+    border-bottom: 2px solid  rgba(197, 197, 197, 1);
+}
+
+.accountNavItem:nth-child(15){
+    padding-bottom: 25px;
+    border-bottom: 2px solid  rgba(197, 197, 197, 1);
+}

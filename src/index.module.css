@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+}
+
+ul{
+  list-style: none;
+}
+
+a, button{
+  color: unset;
+  text-decoration: unset;
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.container{
+  padding: 0 80px ;
+
+}
+
+
+.inFavorites{
+  margin-left: 25px;
+  color:  #90A7FF;
+}
+@media(max-width: 1670px){
+  .container{
+      padding: 0 250px;
+  }
+}
+
+@media(max-width: 1393px){
+  .container{
+      padding: 0 28px;
+  }
+}

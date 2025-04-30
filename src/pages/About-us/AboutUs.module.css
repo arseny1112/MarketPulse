@@ -1,0 +1,383 @@
+.main {
+    background-image: url('../../assets/imgs/main-about-us.png');
+    height: 543px;
+    margin-top: 15px;
+    padding-top: 100px;
+    padding-left: 313px;
+    position: relative; 
+  }
+  
+  .mainInfo {
+    padding: 40px;
+    max-width: 574px;
+    color: white;
+    position: relative; 
+    backdrop-filter: blur(6px);
+    z-index: 1; 
+  }
+
+  .mainInfo div{ 
+    border-top: 5px solid #476CFF;
+    width: 95px;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .mainInfo h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .mainInfo p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 494px;
+  }
+
+  .mainInfo button{
+    background-color: #90A7FF;
+    padding: 15px 40px;
+  }
+  
+
+  .about{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .aboutNumbers{
+    display: flex;
+    justify-content: space-between;
+    color: #4B4B4B;
+    padding-bottom: 80px;
+  }
+
+  .aboutNumbersElement div{
+    border-top: 5px solid #476CFF;
+    width: 60px;
+  }
+
+  .aboutNumbersElementText{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .marketPulse{
+    color: #4B4B4B;
+    font-weight: 700;
+}
+
+.marketPulse h3{
+      font-size: 36px;
+    margin-bottom: 20px;
+
+  }
+
+  .marketPulseBlock{
+    color: white;
+    max-width: 530px;
+    border-radius: 20px;
+    background-color: #90A7FF;
+    padding: 40px;
+  }
+
+  .marketPulseBlock:not(:last-child){
+    margin-bottom: 20px;
+  }
+  
+
+  .marketPulseBlock h4{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .marketPulseBlock p, ul{
+    font-size: 16px;
+    list-style: disc;
+    font-weight: 400;
+  }
+
+  .marketPulseBlock ul{
+    margin-left: 30px;
+  }
+
+  .aboutContent{
+    justify-content: space-between;
+    padding-bottom: 80px;
+  }
+
+ 
+  .marketPulseBlock div{
+    border-top: 5px solid #476CFF;
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .advantages h3{
+    font-size: 36px;
+  margin-bottom: 20px;
+    color: #4B4B4B;
+}
+
+
+.advantagesBlock{
+    background-color: #90A7FF;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 40px 40px 40px 140px;
+    position: relative;
+    max-width: 608px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.advantagesSubtract{
+  position: absolute;
+  right: 72%;
+  top: 0;
+}
+
+.advantagesSubtract img{
+  position: relative;
+}
+
+.advantagesSubtract p{
+  position: absolute;
+  top: 13%;
+  right: 34%;
+}
+
+.advantagesBlock p{
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.advantagesBlockContent h4{
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.advantagesBlockContent p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.advantagesBlockContent{
+  text-align: center;
+}
+
+.partners{
+  flex-direction: column;
+}
+
+.partnersSect{
+  justify-content: space-between;
+}
+
+.partnersSect h3{
+  color: #4B4B4B;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.partnersSect button{
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.partnersSect svg{
+  margin-left: 10px;
+}
+
+.partners p{
+  color: #C5C5C5;
+  max-width: 641px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.partnersListItem{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid  #90A7FF;
+  border-radius: 10px;
+  height: 142px;
+}
+
+
+
+.partnersList{
+  column-gap: 22px;
+  justify-content: center;
+}
+
+@media(max-width: 1900px){
+  .aboutContent{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .marketPulse{
+    margin-bottom: 84px;
+  }
+}
+
+@media(max-width: 1300px){
+  .partnersList{
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
+
+@media(max-width:1024px){
+  .main{
+    background-image: url('../../assets/imgs//main-about-us1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: unset;
+    margin-right: 28px;
+    margin-left: 28px;
+    padding-top: 32px;
+  }
+}
+
+@media(max-width: 850px){
+  .advantagesBlock{
+    justify-content: end;
+    max-height: 260px;
+  }
+
+  .advantagesSubtract{
+    right: 65%;
+  }
+
+  .advantagesBlockContent{
+    max-width: 315px;
+    text-align: end;
+  }
+}
+
+@media(max-width: 732px){
+  .advantagesBlockContent{
+    z-index: 3333;
+    max-width: 292px;
+  }
+
+  .advantagesBlockContent p{
+    font-size: 14px;
+  }
+
+  .advantagesBlockContent h4{
+    font-size: 26px;
+  }
+
+  .advantagesBlock{
+    padding-left: 0;
+  }
+
+  .advantagesSubtract{
+    right: 61%;
+  }
+
+  .advantagesSubtract img{
+    height: 256px;
+  }
+}
+
+@media(max-width: 656px){
+  .advantagesBlockContent{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .advantagesBlockContent p{
+    max-width: 200px;
+  }
+
+  .advantagesSubtract{
+    right: 54%;
+  }
+}
+
+
+@media(max-width: 608px){
+  /* .advantagesBlock{
+   max-width: 314px;
+  }
+
+  .advantagesSubtract{
+    right: 40%;
+  } */
+
+  .advantagesSubtract p{
+    top: 32%;
+    right: 42%;
+  }
+
+  .advantagesBlockContent p{
+    font-size: 11px;
+    max-width: 144px;
+  }
+
+  .advantagesBlockContent h4{
+    font-size: 20px;
+  }
+
+  .advantages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+
+  .advantagesSubtract img{
+    height: 215px;
+  }
+}
+
+@media(max-width: 584px){
+  .aboutNumbers{
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
+
+@media(max-width: 488px){
+  .advantagesSubtract{
+    right: 39%;
+  }
+
+  .mainInfo h2{
+    font-size: 24px;
+    max-width: 205px;
+  }
+
+  .mainInfo p{
+    max-width: 205px;
+  }
+
+  .mainInfo button{
+    font-size: 11px;
+    margin-top: 13px;
+  }
+
+  .main{
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainInfo{
+    max-width: 285px;
+    max-height: 372px;
+  }
+}

@@ -1,0 +1,170 @@
+.accountInfo{
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.accountInfoSect{
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.accountInfoSect img{
+    border-radius: 100px;
+}
+
+.accountInfoSectContent{
+    margin-left: 24px;
+}
+
+.accountInfoSectContent p:first-child{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.accountInfoSectContent p:last-child{
+    font-size: 16px;
+    color: rgba(75, 75, 75, 1);
+}
+
+.accountInfoForm{
+    margin-bottom: 72px;
+    flex-wrap: wrap;
+}
+
+.accountInfoForm label{
+    color: rgba(75, 75, 75, 1);
+    font-size: 16px;
+}
+
+.accountInfoForm input{
+    background-color: rgba(243, 244, 246, 1);
+    border: 1px solid rgba(144, 167, 255, 1);
+}
+
+.accountInfoFormElement{
+    display: flex;
+    flex-direction: column;
+}
+
+.accountInfoFormElement input{
+    width: 455px;
+    height: 46px;
+    border-radius: 6px;
+}
+
+
+
+.accountInfoFormElement:nth-child(5) input{
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.accountInfoForm button{
+    border-radius: 6px;
+}
+
+.accountInfoForm button:nth-of-type(1) {
+    color: white;
+    background-color: rgba(71, 108, 255, 1);
+    font-size: 16px;
+    padding: 12px 16px;
+}
+
+.accountInfoForm button:nth-of-type(2) {
+    color: white;
+    background-color: #90A7FF;
+    font-size: 16px;
+    padding: 12px 16px;
+
+}
+
+
+.accountInfoForm button:nth-of-type(3) {
+    color: rgba(75, 75, 75, 1);
+    background-color: rgba(229, 231, 235, 1);
+    padding: 12px 18px;
+    font-size: 16px;
+}
+
+.accountInfoForm button:nth-of-type(4) {
+    color: #EF4444;
+    font-size: 16px;
+}
+
+.accountInfoFormBtns{
+    column-gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.accountInfoSect2{
+    margin-bottom: 72px;
+}
+
+.accountInfoSect2 h3{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 33px;
+}
+
+.accountInfoSect2Content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accountInfoSect2Content p{
+    font-size: 16px;
+}
+
+.accountInfoSect2Content2 p:nth-child(1){
+    font-size: 16px;
+}
+
+.accountInfoSect2Content2 p:nth-child(2){
+    color: #476CFF;
+    font-size: 16px;
+}
+
+.accountInfoSect3 h3{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.accountInfoSect3Content{
+    display: flex;
+    align-items: center;
+}
+
+.accountInfoSect3Content img{
+    border-radius: 100px;
+    margin-right: 24px;
+}
+
+.accountInfoSect3Content p{
+    font-size: 16px;
+}
+
+.accountInfoFormInputs{
+    column-gap: 16px;
+    row-gap: 16px;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 560px){
+    
+    .accountInfoFormElement input{
+        width: 335px;
+    }
+
+    .accountInfoSect2Content{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .accountInfo{
+        padding-left: unset;
+    }
+}
+

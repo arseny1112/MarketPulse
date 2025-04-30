@@ -1,0 +1,31 @@
+.header{
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding-top: 29px !important;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.headerItem{
+    font-family: 'Inter-Medium';
+    font-size: 14px;
+    color: rgba(71, 108, 255, 1);
+}
+
+.headerItem:not(:last-child){
+    margin-right: 30px;
+}
+
+.headerLink:not(:last-child){
+    margin-right: 16px;
+}
+
+
+
+
+
+@media(max-width: 677px){
+    .headerItems{
+        display: none !important;
+    }
+}
