@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+#Market Pulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Коммерческий проект, созданный для учебных целей в рамках задания. Адаптивный интернет-магазин с каталогом товаров и адаптивным интерфейсом, без возможности реального оформления заказов.
 
-Currently, two official plugins are available:
+⚙️ Используемые технологии
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-React
 
-## Expanding the ESLint configuration
+-Vite
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-CSS Modules
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+-TypeScript
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🚀 Как запустить
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Клонируйте репозиторий на ваш компьютер:  
+git clone https://github.com/arseny1112/Vk-Marusia
+
+2. Перейдите в папку проекта:
+cd vk-marusia
+
+3. Установите все зависимости:
+npm install
+
+4. Запустите проект в режиме разработки:
+npm run dev
+
+Проект будет доступен по адресу, указанному в терминале (обычно http://localhost:5173).
